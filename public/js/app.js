@@ -38,7 +38,7 @@ const messageTwo = document.querySelector('#message-2')
             messageOne.textContent = data.error
         }else {
         messageOne.textContent='' 
-        messageTwo.textContent = data.location + '. It is currently ' +  data.temperature + ' degree. it feels like ' + data.feelslike + ' degree.'
+        messageTwo.textContent = data.location + '. It is currently ' +  data.temperature + ' degree. it feels like ' + data.feelslike + ' degree. The humidity is ' + data.humidity
         console.log(data.location)
         console.log(data.temperature)
         console.log(data.feelslike)
